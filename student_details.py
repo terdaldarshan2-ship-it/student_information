@@ -15,3 +15,13 @@ if __name__ == "__main__":
     )
 
     print(result)
+
+    def student_details(name, usn, college, city, email):
+    return {
+        "name": name,
+        "usn": usn,
+        "college": college,
+        "city": city,
+        "email": email
+    }
+    result["email"] == "ravi@gmail.com"
