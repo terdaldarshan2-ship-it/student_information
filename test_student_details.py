@@ -12,3 +12,4 @@ def test_student():
     assert result["usn"] == "01FE25BCA001"
     assert result["college"] == "ABC College"
     assert result["city"] == "Bangalore"
+     result["email"] == "ravi@gmail.com"
