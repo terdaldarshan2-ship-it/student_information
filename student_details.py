@@ -16,8 +16,8 @@ if __name__ == "__main__":
 
     print(result)
 
-    def student_details(name, usn, college, city, email):  # keep your exact parameters
-    return {
+    def student_details(name, usn, college, city, email):  # line 19 (0 spaces)
+    return {                                           # line 20 (4 spaces)
         "name": name,
         "usn": usn,
         "college": college,
