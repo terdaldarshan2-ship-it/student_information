@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     print(result)
 
-    def student_details(name, usn, college, city, email):
+    def student_details(name, usn, college, city, email):  # keep your exact parameters
     return {
         "name": name,
         "usn": usn,

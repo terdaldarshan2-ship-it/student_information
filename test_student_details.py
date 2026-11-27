@@ -5,11 +5,12 @@ def test_student():
         "Ravi",
         "01FE25BCA001",
         "ABC College",
-        "Bangalore"
+        "Bangalore",
+        "ravi@gmail.com"
     )
 
     assert result["name"] == "Ravi"
     assert result["usn"] == "01FE25BCA001"
     assert result["college"] == "ABC College"
     assert result["city"] == "Bangalore"
-     result["email"] == "ravi@gmail.com"
+    assert result["email"] == "ravi@gmail.com"
