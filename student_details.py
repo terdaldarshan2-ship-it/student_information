@@ -16,15 +16,14 @@ if __name__ == "__main__":
 
     print(result)
 
-    def student_details(name,usn,college,city,email):
+    def student_details(name, usn, college, city, email):
     return {
-        "name":name,
-        "usn":usn,
-        "college":college,
-        "city":city,
-        "email":email
+        "name": name,
+        "usn": usn,
+        "college": college,
+        "city": city,
+        "email": email
     }
 
 if __name__ == "__main__":
     print(student_details("Ravi", "01FE25BCA001", "ABC College", "Bangalore", "ravi@gmail.com"))
-   
